@@ -1,0 +1,100 @@
+.header_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+  position: relative;
+}
+
+.header_container h1 {
+  font-size: xx-large;
+  cursor: pointer;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+}
+
+.searchBar input {
+  font-size: x-large;
+  padding-left: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #f6f6f8;
+  width: 50rem;
+  height: 3rem;
+  margin-right: 1rem;
+}
+.searchBar input::placeholder {
+  font-size: medium;
+  padding-left: 1rem;
+}
+
+.search_icons{
+  cursor: pointer;
+  font-size: larger;
+}
+
+.storeServ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: larger;
+  cursor: pointer;
+}
+.storeServices{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: large;
+  cursor: pointer;
+  transition: 500ms ease;
+
+}
+
+.storeServices button{
+  background-color: transparent;
+  border: none;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.cities_dropdown{
+  position: absolute;
+  top: 4rem;
+  background-color: rgb(22, 21, 21);
+  z-index: 9;
+  width: 20rem;
+  height: auto;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  opacity: 0.96;
+}
+
+.arrow{
+  position: absolute;
+  left: 9.1rem;
+  bottom: 39.23rem;
+  color: rgb(22, 21, 21);
+  font-size: larger;
+}
+
+.subHeader_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.3rem;
+  color: #f6f6f8;
+  background-color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.subHeader_container h5{
+  cursor: pointer;
+}

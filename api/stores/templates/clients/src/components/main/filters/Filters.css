@@ -1,0 +1,41 @@
+
+.mom{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: #f2f2f2;
+  height: auto;
+  width: 16%;
+  transition: ease 500ms;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 12rem;
+  margin-left: 1rem;
+
+
+}
+
+.Filter_container h4{
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.li_container {
+  margin-right: 1rem;
+}
+
+input{
+  margin-left: 5px;
+  margin-bottom: 1rem;
+}
+
+
+
+
+
