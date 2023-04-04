@@ -3,13 +3,13 @@ from django.urls import reverse
 from django.shortcuts import redirect
 
 def index(request):
-    return render(request, 'clients/build/index.html')
+    return render(request, 'shop-owners-page_skincare/build/index.html')
 
 def index1(request):
-    return render(request, 'sephora-app/build/index.html')
+    return render(request, 'sephora-app1/build/index.html')
 
 def index2(request):
-    return render(request, 'shops/build/index.html')
+    return render(request, 'departments-page/build/index.html')
 
 def redirect_view(request):
     url = reverse('index')

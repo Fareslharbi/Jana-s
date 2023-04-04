@@ -141,4 +141,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'stores/templates/clients/build/static'),
     os.path.join(BASE_DIR, 'stores/templates/sephora-app/build/static'),
     os.path.join(BASE_DIR, 'stores/templates/shops/build/static'),
+    os.path.join(BASE_DIR, 'stores/templates/sephora-app1/build/static'),
+    os.path.join(BASE_DIR, 'stores/templates/departments-page/build/static'),
+    os.path.join(BASE_DIR, 'stores/templates/shop-owners-page_skincare/build/static'),
 ]
